@@ -1,0 +1,24 @@
+@import "reset.css";
+
+div.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+div.wrapper canvas {position: absolute;}
+
+div#controls {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    padding: 5px;
+    top: 5px;
+    right: 5px;
+}
+
+div#framerate {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #ffffff;
+}
